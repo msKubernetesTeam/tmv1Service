@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-admin-app
-        image: jenie779/service1:latest
+        image: jenie779/servicedemo:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
